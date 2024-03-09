@@ -1,0 +1,105 @@
+{
+  "players": [
+    {
+      "inventory": [
+        {
+          "name": "Permis de conduire",
+          "stock": 1,
+          "type": "Voiture"
+        },
+        {
+          "name": "téléphone",
+          "stock": 2
+        }
+      ],
+      "licenses": [
+        {
+          "type": "Voiture",
+          "nb_points": 12,
+          "date": "22/01/2024"
+        }
+      ],
+      "certificats": [],
+      "userID": "626841150749409321",
+      "name": "Michaelis vagner",
+      "subname": "Yuri",
+      "age": 23,
+      "birth_date": "07/12/1999",
+      "gender": "Femme",
+      "birth_place": "Japon",
+      "argent": 2,
+      "argent_sale": 0
+    },
+    {
+      "inventory": [],
+      "licenses": [],
+      "certificats": [],
+      "userID": "1046860341667172512",
+      "name": "Vagner",
+      "subname": "Théo",
+      "age": 28,
+      "birth_date": "31/03/1995",
+      "gender": "Homme",
+      "birth_place": "Mexique",
+      "argent": 0,
+      "argent_sale": 0
+    }
+  ],
+  "banks": [
+    {
+      "loans": [],
+      "history": [
+        "<:plus_icon:1159126682440052847> 5000 $ (Création de votre compte bancaire)",
+        "<:plus_icon:1159126682440052847> 3 $ (Dépôt)",
+        "<:plus_icon:1159126682440052847> 1 $ (Prêt pour test)"
+      ],
+      "owner": "626841150749409321",
+      "argent": 5003
+    },
+    {
+      "loans": [],
+      "history": [
+        "<:plus_icon:1159126682440052847> 5000 $ (Création de votre compte bancaire)"
+      ],
+      "owner": "1046860341667172512",
+      "argent": 5000
+    }
+  ],
+  "shops": [
+    {
+      "items": [
+        {
+          "itemID": 0,
+          "name": "téléphone",
+          "price": 1
+        }
+      ],
+      "shopID": 0,
+      "name": "shop",
+      "type": "superette",
+      "argent": 69
+    }
+  ],
+  "drugs": [
+    {
+      "name": "test",
+      "price": 1,
+      "min": 1,
+      "max": 2
+    }
+  ],
+  "robberies": [],
+  "compagnies": [
+    {
+      "employees": [
+        "626841150749409321",
+        "1046860341667172512"
+      ],
+      "patron": "626841150749409321",
+      "name": "Gouvernement",
+      "type": "public",
+      "argent": 0
+    }
+  ],
+  "bank_account_start": 5000
+}
